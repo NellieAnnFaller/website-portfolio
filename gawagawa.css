@@ -1,0 +1,195 @@
+    
+:root {
+    --first: black;
+    --secondmain: #8b0031;
+    --third: #e53e7e;
+    --fourth: #ff509c;
+    --fifth: #f350a1;
+} 
+    
+    body {
+        background-color: var(--first);
+        height: 3000px;
+    }
+
+    #heros {
+        height: 800px;
+        background-image: linear-gradient(to right, rgba(108, 10, 43, 0.726), rgba(148, 26, 59, 0.381), rgba(1, 1, 1, 0.186));
+        width: 100%;
+    }
+
+    #abouts {
+        height: 800px;
+        background-image: linear-gradient(to left, rgba(108, 10, 43, 0.726), rgba(148, 26, 59, 0.381), rgba(1, 1, 1, 0.186));
+        width: 100%;
+    }
+
+    .nextbox {
+        width: 80%;
+        height: 40s0px;
+        margin-left: 200px;
+    }
+
+/* BOX CONTAINER ADUNNO ANYMORE */
+
+
+#herosec {
+        height: 800px;
+        background-image: url('yeah.jpg');
+        background-repeat: no-repeat;
+        background-attachment: scroll;
+        background-size: cover;
+        display: flex;
+    }
+
+
+#boutmesec {
+    height: 800px;
+    background-image: url('yoh.png');
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+    display: flex;
+}
+
+
+/* NAVIGATION STYLE */
+
+    header {
+        background-color: rgba(108, 10, 43, 0.726);
+        background-blend-mode: lighten;
+        width: 100%;
+        min-height: 50px;	
+        
+         }
+    
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            float: right;
+            }
+        
+        li a {
+               display: block;
+               color: #423b3d;
+               text-align: center;
+               padding: 14px 16px;
+               text-decoration: none;
+              }
+        
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            }
+           
+        li {
+            float: left;
+            }
+        
+        li a {
+               display: block;
+               color: white;
+               text-align: center;
+               padding: 14px 16px;
+               text-decoration: none;
+              }
+        
+        li a:hover{
+               color: var(--fourth);
+               text-shadow: 0 5px 8px var(--fourth);
+            }
+             
+        li a:active{
+             color: var(--third);
+                   }
+
+
+/* IMAGE SECTION */
+
+ .pictureito {
+    flex: 0.25 1 17rem;
+    float: left;
+}
+
+  .pictureito img {
+    margin-top: 8rem;
+    height: 400px;
+    width: 300px;
+    border-radius: 10%;
+    border: solid;
+    border-color: var(--first);
+    border-width: 1px;
+    box-shadow: 0 5px 8px var(--first);
+    margin-left: 150px;
+}
+
+.wttpd img {
+    height: 250px;
+    width: 300px;
+    border-radius: 10%;
+    border: solid;
+    border-color: var(--first);
+    border-width: 1px;
+    box-shadow: 0 5px 8px var(--first);
+    margin-left: 150px;
+}
+
+
+/* TEXT SECTION */
+
+.right {
+    flex: 0.25 1 17rem;
+    width: 800px;
+    height: 500px;
+    float: right;
+    margin-top: 150px;
+}
+
+#text1 {
+    color: white;
+    line-height: 1.10;
+    font-size: 40px;
+    font-family: 'Brush Script MT', cursive;
+    text-shadow: 0 5px 8px var(--first);
+}
+
+#text2 {
+    color: white;
+    line-height: 1.10;
+    font-size: 70px;
+    font-family: 'Trebuchet MS', sans-serif;
+}
+
+#text2:hover{     
+    color: var(--secondmain);
+  }
+  
+
+#text3 {
+    color: white;
+    line-height: 1.10;
+    font-size: 20px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-shadow: 0 5px 8px var(--first);
+
+}
+
+h1 {
+    color: var(--first);
+    margin-top: 100px;
+    font-size: 70px;
+}
+
+#text4 {
+    text-align: center;
+    color: white;
+    line-height: 1.10;
+    font-size: 20px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-shadow: 0 5px 8px var(--first);
+
+}
